@@ -1,4 +1,20 @@
 {
   "name": "kafka-app",
-  "packageManager": "yarn@4.3.1"
+  "packageManager": "yarn@4.3.1",
+  "dependencies": {
+    "kafkajs": "^2.2.4"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "admin.js",
+  "scripts": {
+    "admin": "node admin.js",
+    "producer": "node producer.js",
+    "consumer": "node consumer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
 }
